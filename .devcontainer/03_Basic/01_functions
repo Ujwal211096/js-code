@@ -1,0 +1,56 @@
+
+
+function sayMyName (){
+    console.log("u");
+     console.log("j");
+     console.log("w");
+     console.log("a");
+     console.log("l");
+}
+
+// function addTwoNumbers(num1, num2){
+//    console.log(num1 + num2);
+// }
+
+// const result = addTwoNumbers(3,6);
+
+// function addTwoNumbers(num1, num2){
+//     let result = num1 + num2;
+//     return result;
+// }
+// function loginUser(username = "uk"){
+//     if(username === undefined){
+//         console.log("please enter username");
+//         return;
+//     }
+//     return `${username} just logged in`
+// }
+
+// // console.log(loginUser("Ujwal"));
+
+// function calculateCartPrice(...num1){ //...means rest operator here
+//     return num1;
+// }
+// console.log(calculateCartPrice(200, 300, 400));
+
+const user ={
+    username: "ujwal",
+    age : 27
+}
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.username} and age is ${anyObject.age}`);
+}
+//handleObject(user)
+handleObject({
+    username: "Sam",
+    age: 15
+})
+
+const newArray = [100,200,300, 400];
+
+function returnSecondValue(getArray){
+    return getArray[1];
+
+}
+
+console.log(returnSecondValue(newArray));
